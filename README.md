@@ -28,10 +28,16 @@ When you fork a repository, you create a copy of a repository. So forking this p
 - Check the 'Require pull request reviews before merging' 
 - Click `Create` in the bottom
 
-## Fetch repository to your local machine
+## Clone repository to your local machine
+- Go to the `Code` tab
+- Click on the 'Clone or download' button
+- Grab the url
+- Git clone the project
 
 
-## Make changes to project locally --> Create a branch from these changes
+## Make changes to project locally
+- 
+--> Create a branch from these changes
 
 
 ## Commit your changes --> Pull from master --> Push to your branch 
