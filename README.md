@@ -41,10 +41,10 @@ When you fork a repository, you create a copy of a repository. So forking this p
 --> Create a branch from these changes
 
 
-## Commit your changes --> Pull from master --> Push to your branch 
+## Commit your changes --> Push to your branch 
 
 
-## Create pull request to get your changes into master 
+## Pull from master --> Create pull request to get your changes into master 
 
 
 ## When pull request is accepted --> Merge into master
