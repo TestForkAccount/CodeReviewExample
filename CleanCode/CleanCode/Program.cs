@@ -7,6 +7,7 @@ namespace CleanCode
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("EY");
         }
     }
 }
