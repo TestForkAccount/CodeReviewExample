@@ -28,6 +28,7 @@ When you fork a repository, you create a copy of a repository. So forking this p
 - Click on `Add rule`
 - Write "master" as 'Branch name pattern' 
 - Check the 'Require pull request reviews before merging' 
+- Check the 'Include administrators' 
 - Click `Create` in the bottom
 
 ## Clone repository to your local machine
@@ -35,6 +36,7 @@ When you fork a repository, you create a copy of a repository. So forking this p
 - Click on the 'Clone or download' button
 - Grab the url
 - Git clone the project by opening git bash where you want to clone the project, and type in `git clone https://github.com/YOUR-USERNAME/CodeReviewExample.git`
+- When you clone the project remember to add origin to your project by doing `git remote add origin https://github.com/YOUR-USERNAME/CodeReviewExample.git`
 - If you are using a git ui like `Github Desktop` you can clone directly from that program.
 
 You now have the project working locally on your machine. Now we can make changes to the code.
@@ -57,26 +59,25 @@ You are now on a separate branch and ready to make code changes.
 Make some code changes and push those changes to your branch.
 
 Git bash:
-- Make sure you have added all files you want to push to your branch by doing `git add --all`
+- If you are adding a new file, remember to type in `git add 'filename'`
 - Type in `git commit -m "[Commit Message]"` to commit your changes
+- Type in `git pull origin master` to pull changes from master into your branch
 - Type in `git push -u origin [name_of_your_new_branch]`
 
 Git ui: 
 - Add the files you need from the gui
 - Commit changes and add a commit message
+- Pull master into your branch.
 - Push your changes to the branch
 
-## Pull from master and create a pull request
-Now it is time to pull from master, you have made your change now, but we need to check up on the master branch
-
-- `git pull origin master` to pull changes from master into your branch.
+## Create the pull request
 
 Now you have the newest master, and you have your local changes. Now we need to get them into master.
 
 - Navigate to github.com and find your repository. 
 - Click on the tab 'Pull requests'
 - Click on 'New pull request' 
-- Set your 'base' to master and 'compare' to your branch
+- Set your 'base' to master and 'compare' to your branch - Remember to set the base as your forked repository and not where you forked the repository from. 
 - Click on 'Create pull request'
 - Fill in information about the pull request, what you have done.
 - Click on 'Create pull request' 
