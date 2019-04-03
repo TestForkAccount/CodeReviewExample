@@ -8,6 +8,7 @@ namespace CleanCode
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("EY");
+            Console.ReadLine();
         }
     }
 }
