@@ -6,6 +6,7 @@ When you fork a repository, you create a copy of a repository. So forking this p
 
 - Click on the small fork image on the top of this page
 - Congratulations! You now have a copy of this repository on your own git account
+- From now on, all changes in this tutorial will be on your forked repository
 
 ## Add collaborators to forked project
 - Go to the `Settings` tab
