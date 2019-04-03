@@ -17,7 +17,10 @@ When you fork a repository, you create a copy of a repository. So forking this p
 - Click on the CODEOWNERS file
 - Edit this file by clicking on the pencil
 - Add your team members on line 2 with the syntax @membername @membertwo
-- Scroll down to the bottom and click 'Commit changes' to update the file
+- Scroll down to the bottom
+- Make sure 'Commit directly to the master branch' is checked. 
+- Cick 'Commit changes' to update the file
+
 
 ## Add branch rules to forked project
 - Go to the `Settings` tab
