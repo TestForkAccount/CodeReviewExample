@@ -15,7 +15,9 @@ When you fork a repository, you create a copy of a repository. So forking this p
 ## Add collaborators to CODEOWNERS file
 - Go to the `Code` tab
 - Click on the CODEOWNERS file
-- Add your team members on line 2 with the syntax @membername
+- Edit this file by clicking on the pencil
+- Add your team members on line 2 with the syntax @membername @membertwo
+- Scroll down to the bottom and click 'Commit changes' to update the file
 
 ## Add branch rules to forked project
 - Go to the `Settings` tab
