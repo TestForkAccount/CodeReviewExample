@@ -45,7 +45,7 @@ Before creating a branch, you should always do a pull from master, to ensure you
 - Open git bash where your project is and type `git pull` to get the newest version from master. 
 - If you are using a git ui there should be a pull button.
 
-**You now have the newest version of master, and are able to branch out.**
+You now have the newest version of master, and are able to branch out.
 
 - In git bash type in `git checkout -b [name_of_your_new_branch]` this will create a new branch and switch to that branch
 - If you are using a git ui there should be a `new branch` button 
@@ -68,7 +68,7 @@ Now it is time to pull from master, you have made your change now, but we need t
 
 - `git pull origin master` to pull changes from master into your branch.
 
-**Now you have the newest master, and you have your local changes. Now we need to get them into master. **
+Now you have the newest master, and you have your local changes. Now we need to get them into master.
 
 - Navigate to github.com and find your repository. 
 - Click on the tab 'Pull requests'
@@ -95,7 +95,7 @@ When you are ready to finish the review click on 'Review changes'
 - Approve = Pull request is accepted, and is ready to be merged into master
 - Request changes = Submit some feedback about what should be changed before the change is ready to master.
 
-**This pull request is now ready to merge in to master. Who should do it?**
+This pull request is now ready to merge in to master. Who should do it?
 In our team the requester of the pull request gets to merge into master.
 
 In your pull request click on the 'Merge pull request' button when you have green lights, confirm merge and you are done!
