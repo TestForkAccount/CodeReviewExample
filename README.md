@@ -4,7 +4,7 @@
 ## Fork this repository
 When you fork a repository, you create a copy of a repository. So forking this project will give you your own version of it.
 
-- Click on the small fork image
+- Click on the small fork image on the top of this page
 - Congratulations! You now have a copy of this repository on your own git account
 - Open your new repository in a separate tab, we will be making some changes to this
 
@@ -33,11 +33,18 @@ When you fork a repository, you create a copy of a repository. So forking this p
 - Go to the `Code` tab
 - Click on the 'Clone or download' button
 - Grab the url
-- Git clone the project
+- Git clone the project by opening git bash where you want to clone the project, and type in `git clone https://github.com/YOUR-USERNAME/CodeReviewExample.git
+- If you are using a GIT UI like `Github Desktop` you can clone directly from that program.
+
+You now have the project working locally on your machine. Now we can make changes to the code.
 
 
 ## Make changes to project locally
-- 
+
+When making changes to code, you should always branch out and create changes on that branch.
+
+
+
 --> Create a branch from these changes
 
 
