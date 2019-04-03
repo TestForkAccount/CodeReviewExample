@@ -31,7 +31,7 @@ When you fork a repository, you create a copy of a repository. So forking this p
 - Go to the `Code` tab
 - Click on the 'Clone or download' button
 - Grab the url
-- Git clone the project by opening git bash where you want to clone the project, and type in `git clone https://github.com/YOUR-USERNAME/CodeReviewExample.git
+- Git clone the project by opening git bash where you want to clone the project, and type in `git clone https://github.com/YOUR-USERNAME/CodeReviewExample.git`
 - If you are using a git ui like `Github Desktop` you can clone directly from that program.
 
 You now have the project working locally on your machine. Now we can make changes to the code.
