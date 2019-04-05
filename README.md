@@ -38,7 +38,7 @@ When you fork a repository, you create a copy of a repository. So forking this p
 - Grab the url
 - Git clone the project by opening git bash where you want to clone the project, and type in `git clone https://github.com/YOUR-USERNAME/CodeReviewExample.git`
 - When you clone the project remember to add origin to your project by doing `git remote add origin https://github.com/YOUR-USERNAME/CodeReviewExample.git`
-- If you are using a git ui like `Github Desktop` you can clone directly from that program.
+- If you are using a git gui like `Github Desktop` you can clone directly from that program.
 
 You now have the project working locally on your machine. Now we can make changes to the code.
 
@@ -49,12 +49,12 @@ When making changes to code, you should always branch out and create changes on 
 Before creating a branch, you should always do a pull from master, to ensure you have the newest version when branching out.
 
 - Open git bash where your project is and type `git pull` to get the newest version from master. 
-- If you are using a git ui there should be a pull button.
+- If you are using a git gui there should be a pull button.
 
 You now have the newest version of master, and are able to branch out.
 
 - In git bash type in `git checkout -b [name_of_your_new_branch]` this will create a new branch and switch to that branch
-- If you are using a git ui there should be a `new branch` button 
+- If you are using a git gui there should be a `new branch` button 
 
 You are now on a separate branch and ready to make code changes.
 Make some code changes and push those changes to your branch.
@@ -65,7 +65,7 @@ Git bash:
 - Type in `git pull origin master` to pull changes from master into your branch
 - Type in `git push -u origin [name_of_your_new_branch]`
 
-Git ui: 
+Git gui: 
 - Add the files you need from the gui
 - Commit changes and add a commit message
 - Pull master into your branch.
